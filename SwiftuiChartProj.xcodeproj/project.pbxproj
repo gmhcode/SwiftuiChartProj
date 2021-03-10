@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909801AE25F2FE340092C621 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801AD25F2FE340092C621 /* extensions.swift */; };
+		909801CA25F2FF430092C621 /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801BC25F2FF430092C621 /* AxisView.swift */; };
+		909801CB25F2FF430092C621 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801BD25F2FF430092C621 /* LineChartView.swift */; };
+		909801CC25F2FF430092C621 /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801BE25F2FF430092C621 /* LegendView.swift */; };
+		909801CD25F2FF430092C621 /* HorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801BF25F2FF430092C621 /* HorizontalBarChartView.swift */; };
+		909801CE25F2FF430092C621 /* LabelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C025F2FF430092C621 /* LabelsView.swift */; };
+		909801CF25F2FF430092C621 /* RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C225F2FF430092C621 /* RandomAccessCollection.swift */; };
+		909801D025F2FF430092C621 /* ChartGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C325F2FF430092C621 /* ChartGrid.swift */; };
+		909801D125F2FF430092C621 /* BarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C425F2FF430092C621 /* BarsView.swift */; };
+		909801D225F2FF430092C621 /* ChartStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C625F2FF430092C621 /* ChartStyle.swift */; };
+		909801D325F2FF430092C621 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C725F2FF430092C621 /* DataPoint.swift */; };
+		909801D425F2FF430092C621 /* LineChartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C825F2FF430092C621 /* LineChartShape.swift */; };
+		909801D525F2FF430092C621 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909801C925F2FF430092C621 /* BarChartView.swift */; };
 		90EF74E325F1D9BD00647B62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF74E225F1D9BD00647B62 /* AppDelegate.swift */; };
 		90EF74E525F1D9BD00647B62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF74E425F1D9BD00647B62 /* SceneDelegate.swift */; };
 		90EF74E725F1D9BD00647B62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EF74E625F1D9BD00647B62 /* ContentView.swift */; };
@@ -35,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		909801AD25F2FE340092C621 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		909801BC25F2FF430092C621 /* AxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
+		909801BD25F2FF430092C621 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		909801BE25F2FF430092C621 /* LegendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+		909801BF25F2FF430092C621 /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalBarChartView.swift; sourceTree = "<group>"; };
+		909801C025F2FF430092C621 /* LabelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsView.swift; sourceTree = "<group>"; };
+		909801C225F2FF430092C621 /* RandomAccessCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomAccessCollection.swift; sourceTree = "<group>"; };
+		909801C325F2FF430092C621 /* ChartGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGrid.swift; sourceTree = "<group>"; };
+		909801C425F2FF430092C621 /* BarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarsView.swift; sourceTree = "<group>"; };
+		909801C625F2FF430092C621 /* ChartStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartStyle.swift; sourceTree = "<group>"; };
+		909801C725F2FF430092C621 /* DataPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		909801C825F2FF430092C621 /* LineChartShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartShape.swift; sourceTree = "<group>"; };
+		909801C925F2FF430092C621 /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		90EF74DF25F1D9BD00647B62 /* SwiftuiChartProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftuiChartProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EF74E225F1D9BD00647B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90EF74E425F1D9BD00647B62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +102,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		909801BB25F2FF430092C621 /* SwiftUICharts */ = {
+			isa = PBXGroup;
+			children = (
+				909801BC25F2FF430092C621 /* AxisView.swift */,
+				909801BD25F2FF430092C621 /* LineChartView.swift */,
+				909801BE25F2FF430092C621 /* LegendView.swift */,
+				909801BF25F2FF430092C621 /* HorizontalBarChartView.swift */,
+				909801C025F2FF430092C621 /* LabelsView.swift */,
+				909801C125F2FF430092C621 /* Extensions */,
+				909801C325F2FF430092C621 /* ChartGrid.swift */,
+				909801C425F2FF430092C621 /* BarsView.swift */,
+				909801C525F2FF430092C621 /* Model */,
+				909801C825F2FF430092C621 /* LineChartShape.swift */,
+				909801C925F2FF430092C621 /* BarChartView.swift */,
+			);
+			path = SwiftUICharts;
+			sourceTree = "<group>";
+		};
+		909801C125F2FF430092C621 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				909801C225F2FF430092C621 /* RandomAccessCollection.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		909801C525F2FF430092C621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				909801C625F2FF430092C621 /* ChartStyle.swift */,
+				909801C725F2FF430092C621 /* DataPoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		90EF74D625F1D9BD00647B62 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +160,7 @@
 		90EF74E125F1D9BD00647B62 /* SwiftuiChartProj */ = {
 			isa = PBXGroup;
 			children = (
+				909801BB25F2FF430092C621 /* SwiftUICharts */,
 				90EF74E225F1D9BD00647B62 /* AppDelegate.swift */,
 				90EF74E425F1D9BD00647B62 /* SceneDelegate.swift */,
 				90EF74E625F1D9BD00647B62 /* ContentView.swift */,
@@ -106,6 +168,7 @@
 				90EF74ED25F1D9BF00647B62 /* LaunchScreen.storyboard */,
 				90EF74F025F1D9BF00647B62 /* Info.plist */,
 				90EF74EA25F1D9BF00647B62 /* Preview Content */,
+				909801AD25F2FE340092C621 /* extensions.swift */,
 			);
 			path = SwiftuiChartProj;
 			sourceTree = "<group>";
@@ -152,6 +215,8 @@
 			dependencies = (
 			);
 			name = SwiftuiChartProj;
+			packageProductDependencies = (
+			);
 			productName = SwiftuiChartProj;
 			productReference = 90EF74DF25F1D9BD00647B62 /* SwiftuiChartProj.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +288,8 @@
 				Base,
 			);
 			mainGroup = 90EF74D625F1D9BD00647B62;
+			packageReferences = (
+			);
 			productRefGroup = 90EF74E025F1D9BD00647B62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,9 +333,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909801D025F2FF430092C621 /* ChartGrid.swift in Sources */,
 				90EF74E325F1D9BD00647B62 /* AppDelegate.swift in Sources */,
 				90EF74E525F1D9BD00647B62 /* SceneDelegate.swift in Sources */,
+				909801D425F2FF430092C621 /* LineChartShape.swift in Sources */,
+				909801CF25F2FF430092C621 /* RandomAccessCollection.swift in Sources */,
 				90EF74E725F1D9BD00647B62 /* ContentView.swift in Sources */,
+				909801CD25F2FF430092C621 /* HorizontalBarChartView.swift in Sources */,
+				909801AE25F2FE340092C621 /* extensions.swift in Sources */,
+				909801CA25F2FF430092C621 /* AxisView.swift in Sources */,
+				909801D125F2FF430092C621 /* BarsView.swift in Sources */,
+				909801CC25F2FF430092C621 /* LegendView.swift in Sources */,
+				909801CE25F2FF430092C621 /* LabelsView.swift in Sources */,
+				909801D225F2FF430092C621 /* ChartStyle.swift in Sources */,
+				909801D325F2FF430092C621 /* DataPoint.swift in Sources */,
+				909801CB25F2FF430092C621 /* LineChartView.swift in Sources */,
+				909801D525F2FF430092C621 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiChartProj/Preview Content\"";
-				DEVELOPMENT_TEAM = 37GL3P72V5;
+				DEVELOPMENT_TEAM = 8B3WZ78H4L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftuiChartProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,7 +539,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftuiChartProj/Preview Content\"";
-				DEVELOPMENT_TEAM = 37GL3P72V5;
+				DEVELOPMENT_TEAM = 8B3WZ78H4L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftuiChartProj/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
